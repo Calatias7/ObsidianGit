@@ -142,4 +142,4 @@
 ## 2.11 Autómata
 
 - **Definición:** Construcción lógica que recibe una entrada y produce una salida basada en lo recibido hasta el momento.
-- **Aplicación en Procesadores de Lenguaje:** Recibe una cadena de símbolos y determina si pertenece a un lenguaje específico.
+- **Aplicación en Procesadores de Lenguaje:** Recibe una cadena de símbolos y determina si pertenece a un lenguaje específico. 
