@@ -62,7 +62,7 @@
 - **Ejemplo:** Conjunto de palíndromos sobre el alfabeto $\{0,1\}$:
 - 
     - $\lambda$
-    - $0$
+	- $0$
     - $1$
     - $00$
     - $11$
