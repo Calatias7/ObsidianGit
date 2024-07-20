@@ -40,6 +40,7 @@ Los operadores de asignación se utilizan para asignar valores a las variables. 
 ****
 [[Operadores de Asignación]]
 ****
+<!--SR:!2024-07-22,3,250!2000-01-01,1,250-->
 
 ### Operadores de Comparación o Relacionales
 Los operadores de comparación se utilizan para comparar dos valores. Devuelven un valor booleano (`true` o `false`).

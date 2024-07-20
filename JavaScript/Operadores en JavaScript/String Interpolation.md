@@ -96,9 +96,9 @@ es false
 >Recordar que  el operador `>` realiza una comparación de los datos de la variable `a` que es `5`  y `b` que es  ` "5" ` son iguales en el valor por lo tanto nos da `false`
 
 ****
-#### `>=` Mayor o igual que 
+#### `>=` Mayor o igual que
 *Ejemplo:*
-`x >= y` 
+`x >= y`
 ```js
 console.log(`${a} >= ${b} -> ${a >= b}`);
 /*el termino "${a} >= ${b} ->"es texto informativo para preguntar
@@ -108,6 +108,7 @@ la operacion "${a >= b}" y el resultado es true
 ```
 > [!note] Comentario:
 >Recordar  que el operador  `>=` realiza una comparación de los datos de la variable `a` que es `5` y `b` que es `"5"` no son mayores pero si son iguales en el valor por lo tanto nos da `true`
+<!--SR:!2024-07-22,3,250-->
 
 
 ****

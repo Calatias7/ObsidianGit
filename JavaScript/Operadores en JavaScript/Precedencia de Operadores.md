@@ -40,6 +40,7 @@ La precedencia de operadores determina el orden en el que se evalúan las operac
     - `/=` Asignación con división: `a /= b`
     - `%=` Asignación con módulo: `a %= b`
     - `**=` Asignación con exponenciación: `a **= b`
+<!--SR:!2024-07-22,3,250!2024-07-22,3,250!2000-01-01,1,250-->
 
 ##### Ejemplo:
 

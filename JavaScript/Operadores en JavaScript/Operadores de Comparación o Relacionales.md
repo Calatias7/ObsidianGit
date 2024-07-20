@@ -22,7 +22,7 @@ ya que el operador == realiza una conversion al tipo de dato respectivo para com
 
 ####  `(===)`Igualdad exacto (se compara el tipo y dato)
 *Ejemplo:*
-`x === y` 
+`x === y`
 ```js
 //Operador Igualdad Estricta o Exacto ===
 //Se compara el valor y el tipo de dato
@@ -34,6 +34,7 @@ y la variable "b" que es un String nos da una desigualdad por lo tanto es false
 */
 ```
 ****
+<!--SR:!2024-07-22,3,250!2000-01-01,1,250-->
 
 #### `!=` Distinto a
 *Ejemplo:*
