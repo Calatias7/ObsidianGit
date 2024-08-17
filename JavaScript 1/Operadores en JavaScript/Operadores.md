@@ -13,7 +13,7 @@ Los operadores aritméticos se utilizan para realizar operaciones matemáticas c
 - `**` Exponenciación: `a ** b` (eleva `a` a la potencia de `b`)
 
 ****
-[[Obsidian/JavaScript/Operadores en JavaScript/Operadores Aritméticos]]
+[[Obsidian/JavaScript 1/Operadores en JavaScript/Operadores Aritméticos]]
 ****
 
 ### Operadores de Incremento y Decremento
@@ -23,7 +23,7 @@ Estos operadores se utilizan para incrementar o decrementar el valor de una vari
 - `--` Decremento: `a--` (post-decremento) o `--a` (pre-decremento)
 
 ****
-[[Obsidian/JavaScript/Operadores en JavaScript/Operadores Incremento y Decremento]]
+[[Obsidian/JavaScript 1/Operadores en JavaScript/Operadores Incremento y Decremento]]
 ****
 
 ### Operadores de Asignación
@@ -38,7 +38,7 @@ Los operadores de asignación se utilizan para asignar valores a las variables. 
 - `%=` Asignación con potencia: `a **= b` (equivale a `a = a ** b`)
 
 ****
-[[Obsidian/JavaScript/Operadores en JavaScript/Operadores de Asignación]]
+[[Obsidian/JavaScript 1/Operadores en JavaScript/Operadores de Asignación]]
 ****
 <!--SR:!2024-07-22,3,250!2000-01-01,1,250-->
 
@@ -55,7 +55,7 @@ Los operadores de comparación se utilizan para comparar dos valores. Devuelven 
 - `<=` Menor o igual que: `a <= b`
 
 ****
-[[Obsidian/JavaScript/Operadores en JavaScript/Operadores de Comparación o Relacionales]]
+[[Obsidian/JavaScript 1/Operadores en JavaScript/Operadores de Comparación o Relacionales]]
 ****
 ### Operadores Lógicos
 Los operadores lógicos se utilizan para realizar operaciones lógicas sobre valores booleanos. Estos operadores son esenciales en la construcción de expresiones lógicas y en el control del flujo de programas.
@@ -66,11 +66,11 @@ Los operadores lógicos se utilizan para realizar operaciones lógicas sobre val
 
 ****
 
-[[Obsidian/JavaScript/Operadores en JavaScript/Operadores Lógicos]]
+[[Obsidian/JavaScript 1/Operadores en JavaScript/Operadores Lógicos]]
 
 ****
 
 ###### Temas relacionados
-[[Obsidian/JavaScript/Operadores en JavaScript/Precedencia de Operadores]]
+[[Obsidian/JavaScript 1/Operadores en JavaScript/Precedencia de Operadores]]
 
 ****

@@ -1,5 +1,5 @@
 comando para imprimir en consola:
-[[Obsidian/JavaScript/Variables en JavaScript/Console.log|console.log]]
+[[Obsidian/JavaScript 1/Variables en JavaScript/Console.log|console.log]]
 
 ````js
 console.log("Hola, Mundo"); //Imprime "Hola, mundo!" en la consola

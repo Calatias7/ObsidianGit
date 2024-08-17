@@ -1,6 +1,6 @@
 
 ### Forma antigua (no recomendable)
-[[Obsidian/JavaScript/Variables en JavaScript/Imprime en consola|Consola]]
+[[Obsidian/JavaScript 1/Variables en JavaScript/Imprime en consola|Consola]]
 ``` js
 var miNumero1 = 15; /* se define una variable llamada "miNumero1" 
 y se le asigna un valor de 15*/
@@ -17,4 +17,4 @@ console.log(miNumero2);// se imprime en consola la variable "miNumero2"
 ![[Obsidian/JavaScript/ANEXOS/Pasted image 20240622150847.png]]
 ***
 ###### Temas relacionados
-[[Obsidian/JavaScript/Variables en JavaScript/Reglas para definir variables en JavaScript]]
+[[Obsidian/JavaScript 1/Variables en JavaScript/Reglas para definir variables en JavaScript]]

@@ -134,4 +134,4 @@ iguales en el valor por lo tanto nos da true
 ***
 
 ###### Temas relacionados
-[[Obsidian/JavaScript/Operadores en JavaScript/String Interpolation]]
+[[Obsidian/JavaScript 1/Operadores en JavaScript/String Interpolation]]

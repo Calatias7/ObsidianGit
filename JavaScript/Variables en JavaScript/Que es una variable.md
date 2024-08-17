@@ -15,8 +15,8 @@ y se le asigna el valor 10"*/
 ```
 ***
 ###### Temas relacionados
-[[Definición de variables]]
-[[Reglas para definir variables en JavaScript]]
-[[Tipos de datos en JavaScript]]
-[[Constantes en JavaScript]]
-[[Comentarios en JavaScript]]
+[[Obsidian/JavaScript/Variables en JavaScript/Definición de variables]]
+[[Obsidian/JavaScript/Variables en JavaScript/Reglas para definir variables en JavaScript]]
+[[Obsidian/JavaScript/Variables en JavaScript/Tipos de datos en JavaScript]]
+[[Obsidian/JavaScript/Variables en JavaScript/Constantes en JavaScript]]
+[[Obsidian/JavaScript/Variables en JavaScript/Comentarios en JavaScript]]

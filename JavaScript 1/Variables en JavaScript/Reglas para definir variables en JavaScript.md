@@ -35,7 +35,7 @@ let MiVariable // No es aceptado por usar Pascal Case en JavaScript
 ```
 ***
 ###### Temas relacionados
-[[Obsidian/JavaScript/Variables en JavaScript/Camel case]]
-[[Obsidian/JavaScript/Variables en JavaScript/Snake case]]
-[[Obsidian/JavaScript/Variables en JavaScript/Pascal Case]]
-[[Obsidian/JavaScript/Variables en JavaScript/Comentarios en JavaScript]]
+[[Obsidian/JavaScript 1/Variables en JavaScript/Camel case]]
+[[Obsidian/JavaScript 1/Variables en JavaScript/Snake case]]
+[[Obsidian/JavaScript 1/Variables en JavaScript/Pascal Case]]
+[[Obsidian/JavaScript 1/Variables en JavaScript/Comentarios en JavaScript]]

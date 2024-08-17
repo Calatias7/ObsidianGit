@@ -87,4 +87,4 @@ segun la tabla el resultado es "false" */
 > El operador lógico `NOT` es un operador Unario ya que solo requiere un valor para poder trabajar correctamente, a diferencia de los operadores `AND` y `OR` que son binarios ya que estos requieren dos valores
 
 ****
-[[Obsidian/JavaScript/Operadores en JavaScript/Ejemplo de operador lógicos]]
+[[Obsidian/JavaScript 1/Operadores en JavaScript/Ejemplo de operador lógicos]]
