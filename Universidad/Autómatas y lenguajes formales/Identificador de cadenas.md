@@ -1,8 +1,8 @@
 ## Identificador de cadenas
 ```js
 // Definicion de las palabras reservadas, operadores y expresion regular para identificadores y constantes
-const reservedWords = ['if', 'else', 'for', 'while', 'return', 'function', 'var', 'let', 'const'];
-const operators = ['+','(', ')', '-', '*', '/', '=', '==', '===', '!=','!==', '<', '>', '<=', '>=', '&&', '||', '++', '--'];
+const reservedWords = ['if', 'else', 'for', 'while', 'return', 'function', 'var', 'let', 'const', 'then'];
+const operators = ['+','(', ')', '-', '*', '/', '=', '==', '===', '!=','!==', '<', '>', '<=', '>=', '&&', '||', '++', '--', '"'];
 const identifierRegex = /^[a-zA-Z_$][a-zA-Z_$0-9]*$/;
 const constantRegex = /^[0-9]+(\.[0-9]+)?$/;
 
@@ -40,9 +40,8 @@ function classifyCode(code) {
 }
 
 // Ejemplo de uso
-const code = `hola mundo
-resultado = ( a + b ) * 2.5 === 10 && if Valor !== 0
-`;
+const code = `If a > t then
+Msg " Bienvenidos "`;
 
 // Clasificar el código y mostrar el resultado
 const result = classifyCode(code);
