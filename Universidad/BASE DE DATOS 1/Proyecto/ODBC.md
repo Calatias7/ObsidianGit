@@ -5,32 +5,28 @@ https://www.ibm.com/support/pages/download-db2-fix-packs-version-db2-linux-unix-
 estos son los fixpacks de db2 para descargar el OBDC db2 for windows
 ![[Pasted image 20241022145617.png]]
 
-ahora bien 
-antes de descargar cualquier pendejada
-
-vayan a su maquina virtual en donde este instalado db2 
-ingresan ingresen con el usuario de la base de datos
-y ejecutan lo siguiente
-
-`db2level`
+- ahora bien 
+- antes de descargar algún archivo 
+- vayan a su maquina virtual en donde este instalado db2 
+- ingresan  con el usuario de la base de datos y ejecutan lo siguiente :`db2level`
 
 ![[Pasted image 20241022145755.png]]
 aca les aparece la version de db2 y lo importante el fix pack
 
 en mi caso es la version 11.1.4.4 y el fixpack 4
 
-ahora en link buscan la version v11.1 y el fixpack4 en este caso podemos observar que tenemos hasta el fixpack 7con un asterisco  lo que indica que es el Fix Pack final para esta versión es recomendable usar esta por aquello de que las versiones anteriores tengan bugs
+ahora en link buscan la version v11.1 y el fixpack4 en este caso podemos observar que tenemos hasta el fixpack 7 con un asterisco  lo que indica que es el Fix Pack final para esta versión es recomendable usar esta por aquello de que las versiones anteriores tengan bugs 
 
 recuerden descargar el fixpack que les corresponda
 
 ![[Pasted image 20241022150436.png]]
 
-seleccion el sistema en este caso windows
-despliegan y selecciona este caso la primera opcion 
+seleccionan el sistema en este caso Windows
+despliegan y selecciona este caso la primera opción 
 
 ![[Pasted image 20241022150546.png]]
 
-la primera opcion si les pide conectar a una cuenta usen la que crearon para descargar db2 con el correo de la u
+la primera opción si les pide conectar a una cuenta usen la que crearon para descargar db2 
 
 ![[Pasted image 20241022150643.png]]
 
@@ -83,8 +79,6 @@ nos muestra lo que se va instalar revisamos que venta sporte de odbc  y le damos
 
 
  ahora configuramos el ODBC 
-
-
 vamos al buscador y escribimos `origenes de datos ODBC` en mi caso es de 64bits
 
 ![[Pasted image 20241022153806.png]]
@@ -96,22 +90,18 @@ nos vamos a la pestaña DNS de sistemas
 
 y luego agregar
 
-
 ![[Pasted image 20241022154113.png]]
 
-si no hicimos la instalación anterior no nos aparecerá los los ODBC
-
-en este caso las dos opciones son validas 
-
-`IBM DB2 ODBC DRIVER`
-`IBM DB2 ODBC DRIVER -DB2COPY1`
-
-seleccionamos cualquiera
-pongan un nombre para identificar luego en añadir 
+- si no hicimos la instalación anterior no nos aparecerá los los ODBC
+- en este caso las dos opciones son validas 
+- `IBM DB2 ODBC DRIVER`
+- `IBM DB2 ODBC DRIVER -DB2COPY1`
+- seleccionamos cualquiera
+- pongan un nombre para identificar luego en añadir 
 ![[Pasted image 20241022154313.png]]
 
-descricion cualquier cosa que les sirva para ver para que sirve
-id de usuario el usuario en el que se conecta la base de datos y su respectiva contraseña 
+- descripción cualquier cosa que les sirva para ver para que sirve
+- id de usuario el usuario en el que se conecta la base de datos y su respectiva contraseña 
 ![[Pasted image 20241022154743.png]]
 
 
@@ -119,12 +109,12 @@ ahora la siguente pestaña TCP/IP
 
 ![[Pasted image 20241022154938.png]]
 
-Nombre de la base en mi casoo es VMENDEZ
-alias ponemos el mismo nombre de la base en mi caso VMENDEZ
-nombre del sistema principal en este caso es la ip de la maquina donde tenemos el db2
-y el puerto en mi caso es el 50001
-si aparece marcada la opcion la base de datoos reside la desmarcamos
-le dan aceptar y aceptar 
+- Nombre de la base en mi caso es `VMENDEZ`
+- alias ponemos el mismo nombre de la base en mi caso VMENDEZ
+- nombre del sistema principal en este caso es la` IP `de la maquina donde tenemos el db2
+- y el puerto en mi caso es el `50001`
+- si aparece marcada la opción la base de datos reside la desmarcamos
+- le dan aceptar y aceptar 
 ![[Pasted image 20241022155258.png]]
 
 cierran la ventana y vuelvan abrir y le dan en la pestaña DSN de sistema
@@ -140,24 +130,18 @@ prueben a ver si les conecta ingresando la contraseña y  pulsando el boton cone
 lo mismo con oracle
 
 pero antes revisen si ya tienen 
-
 ![[Pasted image 20241022165007.png]]
 en 
-
 
 ![[Pasted image 20241022165029.png]]
 
 si no hagan esto
-
 https://www.oracle.com/database/technologies/instant-client/downloads.html
-
 antes de descargar cualquier cosa entren a sqlplus
 ingresan y ejecuten lo siguente
-
 ````shell
 select * from v$version;
 ````
-
 
 ![[Pasted image 20241022164121.png]]
 
@@ -165,6 +149,7 @@ en este caso es la 21
 ![[Pasted image 20241022164610.png]]
 
 buscan ODBC package
+
 ![[Pasted image 20241022164639.png]]
 
 descargan y descomprimen y ejecuten el archivo
@@ -177,17 +162,16 @@ volvemos a
 
 ![[Pasted image 20241022165247.png]]
 
-agregar seleccion cualquiera de las dos o la que les aparezca
+agregar selección cualquiera de las dos o la que les aparezca
 
 ![[Pasted image 20241022165323.png]]
 
 RELLENAN LOS DATOS
 
-DATA SOURCE NAME EL NOMBRE DE LA CONECCION
-descripción algo para saber que es
-TNS service name el nombre de la base por defecto es XE
-user ID el usuario para conectar a la base 
-puede ser SYS, SYSTEM, o el usuario que creamos en mi caso es VMENDEZ
+- DATA SOURCE NAME EL NOMBRE DE LA CONECCION
+- descripción algo para saber que es
+- TNS service name el nombre de la base por defecto es `XE`
+- user ID el usuario para conectar a la base puede ser `SYS, SYSTEM`, o el usuario que creamos en mi caso es `VMENDEZ`
 ![[Pasted image 20241022165909.png]]
 
 le dan en Test connection
@@ -226,23 +210,19 @@ les aparecera las tablas que tienen en la base de datos
 y seleccionan las que quieran utilizar
 ![[Pasted image 20241022163125.png]]
 
-
 como ejemplo usare estas 3 y aceptar 
 ![[Pasted image 20241022163254.png]]
 
-seleccionan los campos que quierann que aparezcan en este caso todos y asi con todas las tablas que seleccionaron 
+seleccionan los campos que quieran que aparezcan en este caso todos y así con todas las tablas que seleccionaron 
 
 ![[Pasted image 20241022163333.png]]
-despues de esto ya tendrian vinculadas las tablas de db2  que escogieron para hacer un reporte en MS ACCESS
+después de esto ya tendrían vinculadas las tablas de db2  que escogieron para hacer un reporte en MS ACCESS
 ![[Pasted image 20241022163424.png]]
 ![[Pasted image 20241022163509.png]]
 
 
 y lo mismo solo que para oracle 
 ![[Pasted image 20241022170401.png]]
-
-yo como en oracle no tengo unna tabla creada por que lo instale de nuevo no me aparece y solo aparece las tablas del sistema pero es lo mismo
-
 
 ![[Pasted image 20241022170432.png]]
 

@@ -23,16 +23,16 @@ copian los archivos antes mencionados a su maquina fisica pueden usar WINscp
 se dirijen a donde estan los archivos en mi caso es `/opt/ibm/db2/V11.1/java/` copian y pegan los archivos `db2jcc4.jar` y `db2jcc.jar` a donde se les facilite encontrarlos
 ![[Pasted image 20241022071112.png]]
 ### Pasos para configurarlo en SQuirreL SQL:
+## DB2
+- Abre SQuirreL SQL.
 
-Abre SQuirreL SQL.
+- Ve a **Drivers** en el menú principal.
 
-Ve a **Drivers** en el menú principal.
-
-Selecciona **DB2** o crea un nuevo driver si no aparece.
+- Selecciona **DB2** o crea un nuevo driver si no aparece.
 ![[Pasted image 20241022071415.png]]
-En la configuración del driver, agrega el archivo **`db2jcc4.jar`** como el archivo JAR para el controlador. 
+- En la configuración del driver, agrega el archivo **`db2jcc4.jar`** como el archivo JAR para el controlador. 
 
-le dan add y añaden los jar dejando en `db2jcc4.jar` como primero
+- le dan add y añaden los jar dejando en `db2jcc4.jar` como primero
 ![[Pasted image 20241022071528.png]]
 
 5. Configura la URL de conexión como:
@@ -72,9 +72,8 @@ Para ver qué puerto está utilizando DB2, puedes usar el siguiente comando dent
 ![[Pasted image 20241022070022.png]]
 en mi caso el puerto de db2 es el 50001
 
-no olviden levantar el db2 
+no olviden levantar el db2  `db2start`
 
-`db2start`
  ![[Pasted image 20241022070359.png]]
 ![[Pasted image 20241022071648.png]]
 
@@ -82,30 +81,31 @@ ahora se van al apartado de aliasses y crean uno nuevo
 
 ![[Pasted image 20241022071801.png]]
 
-en driver seleccionan el de db2 
-en name el que ustedes quieran 
-la url la que habias dicho anteriormente 
-en usar name el usuario con el que se conecta en la base de datos
-y su respectiva contraseña
+- en driver seleccionan el de db2 
+- en name un nombre para identificar
+- la url la que habías dicho anteriormente 
+```
+jdbc:db2://<hostname>:<port>/<database>
 
-le dana test 
+```
+- en username el usuario con el que se conecta en la base de datos
+- y su respectiva contraseña
+- le dan a test 
 ![[Pasted image 20241022072120.png]]
 y luego connect si sale todo bien 
 ![[Pasted image 20241022072030.png]]
 
-y luego ya le pueden dar en connect
- y ya crearon el enlace de db2 a squirrel sql
-
+- y luego ya le pueden dar en connect
+ - y asi crearon el enlace de db2 a squirrel sql
+## DB2
 lo mismo con oracle
 
-solo que como es en la maquina fisica usen el cmd para ver su ip con `ipcofig`
+solo que como es en la maquina física usen el cmd para ver su ip con `ipcofig`
 
 el JDBC si lo descargue en el Sitio oficial de oracle y el driver use el ORACLE thin driver
 ![[Pasted image 20241022072951.png]]
 
-En el alisses pueden usar ya sea el usuario que creamos o el `sys as sysdba`
-es mejor usar el sys as system ante cualquer duda
-
+En el alisses pueden usar ya sea el usuario que creamos (`VMENDEZ`)o el `sys as sysdba`
 el puerto por defecto es 1521 y la base es XE
 
 
@@ -113,8 +113,7 @@ el puerto por defecto es 1521 y la base es XE
 ![[Pasted image 20241022072829.png]]
 
 
-y ya podran tener db2 y oracle al mismo tiempo funcionado e interactuando sin la nececidad de los shell
-solo que con db2 tiene que tener la maquina virtal prendida y el db2 inicializado
+y ya podrán tener db2 y Oracle al mismo tiempo funcionado e interactuando
 
 ![[Pasted image 20241022073235.png]]
 
