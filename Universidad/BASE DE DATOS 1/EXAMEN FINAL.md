@@ -1,0 +1,75 @@
+# CREACION DE LA BASE DE DATOS
+![[Pasted image 20241103072040.png]]
+
+## TABLA UNIVERSIDAD
+![[Pasted image 20241103072121.png]]
+### PK DE LA TABLA UNIVERSIDA
+
+![[Pasted image 20241103073249.png]]
+
+
+## TABLA FACULTAD
+![[Pasted image 20241103072136.png]]
+
+### PK DE LA TABLA FACULTAD
+![[Pasted image 20241103073420.png]]
+
+#### FK DE LA TABLA FACULTAD
+
+![[Pasted image 20241103075131.png]]
+
+## TABLA CARRERA
+![[Pasted image 20241103072204.png]]
+
+### PK DE LA TABLA CARRERA
+
+![[Pasted image 20241103073652.png]]
+
+
+#### FK DE LA TABLA CARRERA
+
+![[Pasted image 20241103075642.png]]
+
+## TABLA ALUMNO
+![[Pasted image 20241103072519.png]]
+
+### PK DE LA TABLA ALUMNO
+
+![[Pasted image 20241103073817.png]]
+
+#### FK DE LA TABLA ALUMNO
+
+![[Pasted image 20241103080031.png]]
+
+## TABLA ASIGNACION
+![[Pasted image 20241103072807.png]]
+
+### PK DE LA TABLA ASIGNACION
+
+![[Pasted image 20241103074155.png]]
+
+#### FK DE LA TABLA ASIGNACION
+
+![[Pasted image 20241103080301.png]]
+
+## TABLA ASIGNACION DETALLE
+![[Pasted image 20241103072925.png]]
+
+### PK DE LA TABLA ASIGNACION_DETALLE
+
+![[Pasted image 20241103074447.png]]
+
+#### FK DE LA TABLA ASIGNACION_DETALLE
+
+![[Pasted image 20241103080658.png]]
+
+
+## TABLA CURSO
+![[Pasted image 20241103073110.png]]
+
+### PK DE LA TABLA CURSO
+
+![[Pasted image 20241103074809.png]]
+
+#### FK DE LA TABLA CURSO
+![[Pasted image 20241103081802.png]]
