@@ -111,7 +111,7 @@
 ![[Pasted image 20241031144419.png]]
 
 ### PK DE LA TABLA INGRES_ALMACEN
-![[Pasted image 20241031145145.PNG]]
+![[Pasted image 20241031145145.png]]
 
 ### FK DE LA TABLA INGRES_ALMACEN
 ![[Pasted image 20241031150417.png]]
