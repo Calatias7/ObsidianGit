@@ -1,4 +1,4 @@
-**► Enunciado:**
+**Enunciado:**
 
 Escribir un programa que muestre por pantalla el siguiente mensaje:
 
