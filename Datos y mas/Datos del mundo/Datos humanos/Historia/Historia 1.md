@@ -1,3 +1,0 @@
-#Historia #Deportes
-**Las Olimpiadas de la Antigüedad Tenían un Evento de Lucha Llamado "Pancracio"**  
-El Pancracio era una mezcla de boxeo y lucha libre, y era uno de los deportes más brutales de las antiguas Olimpiadas griegas, donde casi todo estaba permitido, excepto morder y sacar los ojos.

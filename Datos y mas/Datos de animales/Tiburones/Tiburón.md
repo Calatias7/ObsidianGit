@@ -1,2 +1,0 @@
-**Los Tiburones Pueden Desarrollar Embarazos que Duran Años**  
-El tiburón anguila japonés puede tener un período de gestación de más de 3 años, el más largo de cualquier vertebrado, lo que significa que sus crías tardan años en desarrollarse antes de nacer.
