@@ -24,6 +24,10 @@ ___
 ___
 
 **Salida:**
+<<<<<<< HEAD
 
+=======
+![image](https://github.com/user-attachments/assets/19e35f33-fb32-4b15-86da-88dcd96c4237)
+>>>>>>> origin/main
 
 ![[Pasted image 20250120163728.png]]
